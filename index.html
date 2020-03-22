@@ -4,8 +4,12 @@
 <head>
   <meta charset="utf-8">
   <title>Ewelina Badowska | Front-End Developer</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&family=Oswald:wght@300;500&display=swap"
+    rel="stylesheet">
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -13,37 +17,48 @@
 
   <section id="title">
 
-    <!-- Nav Bar -->
+    <div class="container-fluid">
 
-    <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="">Logo</a>
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="">Logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
               <a class="nav-link" href="">About</a>
-          </li>
-          <li class="nav-item">
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="">Projects</a>
-          </li>
-          <li class="nav-item">
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="">Contact</a>
-          </li>
-      </ul>
-   </div>
-  </nav>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-    <!-- Title -->
+      <!-- Title -->
 
-    <div>
-      <h1>Ewelina Badowska</h1>
-      <p>Front-End Developer</p>
-      <button type="button">Read More</button>
-    </div>
-    <div>
-      <img src="images/profile-picture.png" style="height:100px;width:100px;" alt="profile-photo">
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1>Ewelina Badowska</h1>
+          <h2>Front-End Developer</h2>
+          <p>One sentence with 2-3 lines of description with key information about me, motivation and goals.</p>
+          <button type="button" class="btn btn-info more-button">Read More</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/profile-picture.png" alt="profile-photo">
+        </div>
+
+      </div>
+
     </div>
 
   </section>
@@ -53,21 +68,37 @@
 
   <section id="about">
 
-    <h3>I am a self-taught Junior Front-End Developer transitioning from a Senior IT
-      Support role. During my preparation I took 2 comprehensive Udemy Front-End Development
-      Bootcamps (more than 80 hours of learning material and 150+ hours of
-      additional work), resulting in projects deployments in the cloud. I am not afraid of taking on challenges which I showed many times across my
-      career. I am a fast learner, hard worker and team player with customer service
-      experience and a strong focus on end-user satisfaction.</h3>
-    <p>Technologies</p>
-    <li>Technology</li>
-    <li>Technology</li>
-    <li>Technology</li>
-    <li>Technology</li>
-    <li>Technology</li>
-    <li>Technology</li>
-    <li>Technology</li>
-    <li>Technology</li>
+    <div class="row">
+
+      <div class="col-lg-6 col-md-6">
+        <img class="about-image" src="images/about-image.jpg" alt="about-image">
+      </div>
+
+      <div class="col-lg-6 col-md-6">
+        <h2>About Me</h2>
+        <h3 class="about-text">I am a self-taught Junior Front-End Developer transitioning from a Senior IT Support
+          role. During my preparation I took 2 comprehensive Udemy Front-End Development Bootcamps (more than 80 hours
+          of learning material and 150+ hours of additional work), resulting in projects deployments in the cloud. I am
+          not afraid of taking on challenges which I showed many times across my career. I am a fast learner, hard
+          worker and team player with customer service experience and a strong focus on end-user satisfaction.</h3>
+        <p class="technology-title">Technologies</p>
+        <div class="about-tag">
+          <ul>
+            <li><span>HTML5</span></li>
+            <li><span>CSS3</span></li>
+            <li><span>Bootstrap 4</span></li>
+            <li><span>JavaScript</span></li>
+            <li><span>React + Redux</span></li>
+            <li><span>Git + GitHub</span></li>
+            <li><span>Node.js + Express.js</span></li>
+            <li><span>PostgreSQL</span></li>
+            <li><span>MongoDB</span></li>
+            <li><span>RESTful APIs</span></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
 
   </section>
 
@@ -81,17 +112,20 @@
 
     <h3>Project title</h3>
     <img class="project-image" src="images/project1.jpg" alt="project-image">
-    <p class="project-text">Project description with used frontend and backend technologies, database used, deployment, functionalities and all the details about the app. </p>
+    <p class="project-text">Project description with used frontend and backend technologies, database used, deployment,
+      functionalities and all the details about the app. </p>
     <button type="button">View Project</button>
 
     <h3>Project title</h3>
     <img class="project-image" src="images/project2.jpg" alt="project-image">
-    <p class="project-text">Project description with used frontend and backend technologies, database used, deployment, functionalities and all the details about the app. </p>
+    <p class="project-text">Project description with used frontend and backend technologies, database used, deployment,
+      functionalities and all the details about the app. </p>
     <button type="button">View Project</button>
 
     <h3>Project title</h3>
     <img class="project-image" src="images/project3.jpg" alt="project-image">
-    <p class="project-text">Project description with used frontend and backend technologies, database used, deployment, functionalities and all the details about the app. </p>
+    <p class="project-text">Project description with used frontend and backend technologies, database used, deployment,
+      functionalities and all the details about the app. </p>
     <button type="button">View Project</button>
 
   </section>
@@ -112,13 +146,19 @@
 
   <footer id="footer">
 
-    <p>© 2020 Ewelina Badowska</p>
+    <p>© 2020 Handmade by Me | Ewelina Badowska</p>
 
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 
 </body>
 
