@@ -33,16 +33,13 @@ p{
 }
 .navbar{ 
     padding: 2% 15% 2%;
-}
-.navbar-toggler-icon{
-    background-color: #374785;
+    background-color: #f8e9a1;
 }
 .nav-item{
     padding: 0 18px;
-    color: #004445;
 }
-.nav-link{
-    font-size: 1.2rem;
+.navbar-light .navbar-nav .nav-link{
+    font-size: 1.3rem;
     color: #374785; 
 }
 .more-button {
@@ -132,4 +129,9 @@ p{
   .about-image{
       margin-bottom: 50px;
   }
+ .white{
+    background-color: #ffffff;
+    border: 5px solid #f76c6c;
+    margin-bottom: 15%;
+    padding: 3%;
 }

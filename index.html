@@ -19,39 +19,40 @@
 
 
 
-      <!-- Nav Bar -->
+    <!-- Nav Bar -->
 
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="">Logo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-      <!-- Title -->
-      <div class="container-fluid">
+    <!-- Title -->
+    <div class="container-fluid">
       <div class="row">
 
-        <div class="col-lg-6">
+        <div class="white col-lg-6">
           <h1>Ewelina Badowska</h1>
           <h2>Front-End Developer</h2>
           <h3>One sentence with 2-3 lines of description with key information about me, motivation and
             goals.</h3>
-          <button type="button" class="btn btn-info more-button">Read More</button>
+          <a href="#about">
+            <button type="button" class="btn btn-info more-button">Read More</button>
+          </a>
         </div>
 
         <div class="col-lg-6">
@@ -161,21 +162,27 @@
 
   <section id="contact">
 
-      <h2>Get in touch</h2>
-      <p>One sentence intro about recent projects</p>
+    <h2>Get in touch</h2>
+    <p>One sentence intro about recent projects</p>
 
-      <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-6">
-        <h3>If you would like to work with me</h3>
-        <button type="button" class="btn btn-info btn-lg message-button">Send me a message</button>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <h3>If you would like to work with me</h3>
+          <a href="mailto:ewbadowska@gmail.com">
+            <button type="button" class="btn btn-info btn-lg message-button">Send me a message</button>
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <h3>Find me</h3>
+          <a href="https://github.com/ewbadowska">
+            <i class="social-icon fab fa-github fa-3x"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/ewelinabadowska/">
+            <i class="social-icon fab fa-linkedin fa-3x"></i>
+          </a>
+        </div>
       </div>
-      <div class="col-lg-6">
-        <h3>Find me</h3>
-        <i class="social-icon fab fa-github fa-3x"></i>
-        <i class="social-icon fab fa-linkedin fa-3x"></i>
-      </div>
-    </div>
     </div>
 
   </section>
