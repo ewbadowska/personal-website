@@ -17,11 +17,9 @@
 
   <section id="title">
 
-
-
     <!-- Nav Bar -->
 
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light color-section">
       <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -42,13 +40,15 @@
     </nav>
 
     <!-- Title -->
-    <div class="container-fluid">
+
+    <div class="container-fluid background">
       <div class="row">
 
         <div class="white col-lg-6">
-          <h1>Ewelina Badowska</h1>
-          <h2>Front-End Developer</h2>
-          <h3>One sentence with 2-3 lines of description with key information about me, motivation and
+          <h1 class="main-heading">Ewelina Badowska</h1>
+          <h2 class="role-heading">Front-End Developer</h2>
+          <h3 class="descrption-heading">One sentence with 2-3 lines of description with key information about me,
+            motivation and
             goals.</h3>
           <a href="#about">
             <button type="button" class="btn btn-info more-button">Read More</button>
@@ -56,7 +56,7 @@
         </div>
 
         <div class="col-lg-6">
-          <img class="title-image" src="images/profile-picture.png" alt="profile-photo">
+          <img class="title-image border-image" src="images/profile-picture.png" alt="profile-photo">
         </div>
 
       </div>
@@ -65,25 +65,24 @@
 
   </section>
 
-
   <!-- About -->
 
-  <section id="about">
+  <section id="about" class="white-section">
 
     <div class="row">
 
       <div class="col-lg-6">
-        <img class="about-image" src="images/about-image.jpg" alt="about-image">
+        <img class="about-image border-image" src="images/about-image.jpg" alt="about-image">
       </div>
 
       <div class="col-lg-6">
-        <h2>About Me</h2>
+        <h2 class="about-heading">About Me</h2>
         <p class="about-text">I am a self-taught Junior Front-End Developer transitioning from a Senior IT Support
           role. During my preparation I took 2 comprehensive Udemy Front-End Development Bootcamps (more than 80 hours
           of learning material and 150+ hours of additional work), resulting in projects deployments in the cloud. I am
           not afraid of taking on challenges which I showed many times across my career. I am a fast learner, hard
           worker and team player with customer service experience and a strong focus on end-user satisfaction.</h3>
-          <h3 class="technology-title">Technologies</h3>
+          <h3 class="technology-heading">Technologies</h3>
           <div class="about-tag">
             <ul>
               <li><span>HTML5</span></li>
@@ -106,9 +105,9 @@
 
   <!-- Projects -->
 
-  <section id="projects">
+  <section id="projects" class="color-section">
 
-    <h2>Recent Projects</h2>
+    <h2 class="projects-heading">Recent Projects</h2>
     <p>One sentence intro about recent projects</p>
 
     <div class="row">
@@ -117,7 +116,7 @@
         <div class="card text-center">
           <img class="card-img-top" src="images/about-image.jpg" alt="project-image">
           <div class="card-body">
-            <h3 class="card-title">Project title</h5>
+            <h3 class="card-heading">Project title</h5>
               <p class="card-text">Project description with used frontend and backend technologies, database used,
                 deployment,
                 functionalities and all the details about the app. </p>
@@ -125,13 +124,12 @@
           </div>
         </div>
       </div>
-
 
       <div class="project-column col-lg-4 col-md-6">
         <div class="card text-center">
           <img class="card-img-top" src="images/about-image.jpg" alt="project-image">
           <div class="card-body">
-            <h3 class="card-title">Project title</h5>
+            <h3 class="card-heading">Project title</h5>
               <p class="card-text">Project description with used frontend and backend technologies, database used,
                 deployment,
                 functionalities and all the details about the app. </p>
@@ -139,13 +137,12 @@
           </div>
         </div>
       </div>
-
 
       <div class="project-column col-lg-4">
         <div class="card text-center">
           <img class="card-img-top" src="images/about-image.jpg" alt="project-image">
           <div class="card-body">
-            <h3 class="card-title">Project title</h5>
+            <h3 class="card-heading">Project title</h5>
               <p class="card-text">Project description with used frontend and backend technologies, database used,
                 deployment,
                 functionalities and all the details about the app. </p>
@@ -153,35 +150,31 @@
           </div>
         </div>
       </div>
-
     </div>
 
   </section>
 
   <!-- Contact -->
 
-  <section id="contact">
+  <section id="contact" class="white-section">
 
-    <h2>Get in touch</h2>
-    <p>One sentence intro about recent projects</p>
+    <h2 class="contact-heading">Get in touch</h2>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-6">
-          <h3>If you would like to work with me</h3>
-          <a href="mailto:ewbadowska@gmail.com">
-            <button type="button" class="btn btn-info btn-lg message-button">Send me a message</button>
-          </a>
-        </div>
-        <div class="col-lg-6">
-          <h3>Find me</h3>
-          <a href="https://github.com/ewbadowska">
-            <i class="social-icon fab fa-github fa-3x"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/ewelinabadowska/">
-            <i class="social-icon fab fa-linkedin fa-3x"></i>
-          </a>
-        </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <h3 class="contact-subheading">If you would like to work with me</h3>
+        <a href="mailto:ewbadowska@gmail.com">
+          <button type="button" class="btn btn-info btn-lg message-button">Send me a message</button>
+        </a>
+      </div>
+      <div class="col-lg-6 social-media">
+        <h3 class="contact-subheading">Find me</h3>
+        <a href="https://github.com/ewbadowska">
+          <i class="social-icon fab fa-github fa-3x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ewelinabadowska/">
+          <i class="social-icon fab fa-linkedin fa-3x"></i>
+        </a>
       </div>
     </div>
 
@@ -189,7 +182,7 @@
 
   <!-- Footer -->
 
-  <footer id="footer">
+  <footer id="footer" class="color-section">
 
     <p>© 2020 Handmade by Me | Ewelina Badowska</p>
 
