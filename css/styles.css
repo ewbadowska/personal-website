@@ -11,8 +11,8 @@ body{
 .color-section{
     background-color: #f8e9a1;
 }
-h1, h2, h3, {
-    font-family: 'Oswald-Medium', sans-serif;
+h1, h2, h3 {
+    font-family: 'Josefin Sans', sans-serif;
 }
 p{
     font-size: 1.25rem;
@@ -31,8 +31,11 @@ img {
 }
 /* Headings */
 
+.heading-section{
+    padding: 3%;
+}
 .main-heading{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     line-height: 1.5;
 }
 .role-heading, .about-heading, .projects-heading, .contact-heading{
@@ -69,14 +72,10 @@ img {
 /* Title */
 
 .background{
-    background: url("../images/try2.png");
+    background: url("../images/diy-background.png");
 }
 .main-heading{
     color: #f76c6c;
-}
-.more-button {
-    margin: 3%;
-    background-color: #374785;
 }
 .title-image{
     width: 50%;
@@ -121,6 +120,10 @@ img {
     max-width: 100%;
     height: auto;
 }
+.project-button {
+    margin: 3%;
+    background-color: #374785;
+}
 
 /* Contact */
 
@@ -143,18 +146,19 @@ img {
 }
 
 @media (max-width: 991px) {
-  body{
+    body{
       text-align: center;
-  }  
-  .about-image{
+    }  
+    .about-image{
       margin-bottom: 50px;
-  }
- .white{
+    }
+    .white{
     background-color: #ffffff;
     border: 5px solid #f76c6c;
     margin-bottom: 15%;
     padding: 3%;
-}
-.social-media{
+    }
+    .social-media{
     padding: 7%;
+    }  
 }
